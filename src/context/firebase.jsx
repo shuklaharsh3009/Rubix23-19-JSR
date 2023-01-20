@@ -7,12 +7,7 @@ import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage'
 const FirebaseContext = createContext(null);
 
 const firebaseConfig = {
-   apiKey: "AIzaSyAZwdG5hbtIDfSGJHOhXbS6rnBiwPYfklM",
-   authDomain: "kismart-b2eed.firebaseapp.com",
-   projectId: "kismart-b2eed",
-   storageBucket: "kismart-b2eed.appspot.com",
-   messagingSenderId: "918548186293",
-   appId: "1:918548186293:web:096a6030b18b02d430eafc"
+   // put your own.
 };
 
 export const useFirebase = () => useContext(FirebaseContext);
